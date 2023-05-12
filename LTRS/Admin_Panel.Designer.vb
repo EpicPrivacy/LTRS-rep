@@ -23,16 +23,17 @@ Partial Class Admin_Panel
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Admin_Panel))
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2GradientCircleButton2 = New Guna.UI2.WinForms.Guna2GradientCircleButton()
@@ -62,10 +63,10 @@ Partial Class Admin_Panel
         Me.Guna2Panel1.Controls.Add(Me.Guna2GradientCircleButton2)
         Me.Guna2Panel1.Controls.Add(Me.Guna2GradientCircleButton1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges19
+        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges29
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 32)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Me.Guna2Panel1.Size = New System.Drawing.Size(1264, 548)
         Me.Guna2Panel1.TabIndex = 0
         '
@@ -82,7 +83,7 @@ Partial Class Admin_Panel
         Me.Guna2GradientCircleButton2.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientCircleButton2.Location = New System.Drawing.Point(703, 146)
         Me.Guna2GradientCircleButton2.Name = "Guna2GradientCircleButton2"
-        Me.Guna2GradientCircleButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        Me.Guna2GradientCircleButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         Me.Guna2GradientCircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2GradientCircleButton2.Size = New System.Drawing.Size(311, 291)
         Me.Guna2GradientCircleButton2.TabIndex = 4
@@ -101,7 +102,7 @@ Partial Class Admin_Panel
         Me.Guna2GradientCircleButton1.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientCircleButton1.Location = New System.Drawing.Point(223, 146)
         Me.Guna2GradientCircleButton1.Name = "Guna2GradientCircleButton1"
-        Me.Guna2GradientCircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Me.Guna2GradientCircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Me.Guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2GradientCircleButton1.Size = New System.Drawing.Size(311, 291)
         Me.Guna2GradientCircleButton1.TabIndex = 3
@@ -118,12 +119,12 @@ Partial Class Admin_Panel
         Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel3)
         Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel2)
         Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel1)
-        Me.Guna2Panel2.CustomizableEdges = CustomizableEdges17
+        Me.Guna2Panel2.CustomizableEdges = CustomizableEdges27
         Me.Guna2Panel2.Location = New System.Drawing.Point(6, 3)
         Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Padding = New System.Windows.Forms.Padding(1)
-        Me.Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Me.Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Me.Guna2Panel2.Size = New System.Drawing.Size(1253, 61)
         Me.Guna2Panel2.TabIndex = 0
         '
@@ -192,14 +193,14 @@ Partial Class Admin_Panel
         Me.Guna2ControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2ControlBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2ControlBox1.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges13
+        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges23
         Me.Guna2ControlBox1.FillColor = System.Drawing.Color.LightGray
         Me.Guna2ControlBox1.ForeColor = System.Drawing.Color.Transparent
         Me.Guna2ControlBox1.IconColor = System.Drawing.Color.Red
         Me.Guna2ControlBox1.Location = New System.Drawing.Point(1226, 3)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
         Me.Guna2ControlBox1.PressedColor = System.Drawing.Color.Transparent
-        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Me.Guna2ControlBox1.Size = New System.Drawing.Size(30, 26)
         Me.Guna2ControlBox1.TabIndex = 1
         '
@@ -207,12 +208,12 @@ Partial Class Admin_Panel
         '
         Me.Guna2ControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges11
+        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges21
         Me.Guna2ControlBox2.FillColor = System.Drawing.Color.LightGray
         Me.Guna2ControlBox2.IconColor = System.Drawing.Color.Black
         Me.Guna2ControlBox2.Location = New System.Drawing.Point(1190, 3)
         Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Me.Guna2ControlBox2.Size = New System.Drawing.Size(30, 26)
         Me.Guna2ControlBox2.TabIndex = 2
         '
@@ -226,6 +227,7 @@ Partial Class Admin_Panel
         Me.Controls.Add(Me.Guna2ControlBox1)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Admin_Panel"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Admin_Panel"
