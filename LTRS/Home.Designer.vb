@@ -53,7 +53,7 @@ Partial Class Home
         '
         'Guna2Panel1
         '
-        Me.Guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(98, Byte), Integer))
         Me.Guna2Panel1.Controls.Add(Me.Guna2ControlBox1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Button2)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)

@@ -45,4 +45,10 @@ Public Class GetLoan
         Me.Close()
         Application.Exit()
     End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Me.Hide()
+        Dim GetLoan As New GetLoan2
+        GetLoan2.ShowDialog()
+    End Sub
 End Class

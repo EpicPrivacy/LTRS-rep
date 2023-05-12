@@ -31,7 +31,6 @@ Public Class Form1
 
                     Username.BorderColor = System.Drawing.Color.DodgerBlue
                     Password.BorderColor = System.Drawing.Color.DodgerBlue
-                    'MessageBox.Show("Login Success", "Welcome to SAN ISIDRO BLOTTER SYSTEM!", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     Username.Clear()
                     Password.Clear()
 
@@ -60,5 +59,11 @@ Public Class Form1
     Private Sub Guna2ControlBox1_Click(sender As Object, e As EventArgs) Handles Guna2ControlBox1.Click
         Me.Close()
         Application.Exit()
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Me.Hide()
+        Dim Form1 As New MainHome
+        Form1.ShowDialog()
     End Sub
 End Class

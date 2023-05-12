@@ -27,10 +27,8 @@ Partial Class GetLoan
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -41,6 +39,10 @@ Partial Class GetLoan
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GetLoan))
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
@@ -58,6 +60,7 @@ Partial Class GetLoan
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -99,7 +102,8 @@ Partial Class GetLoan
         '
         'Guna2Panel1
         '
-        Me.Guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(98, Byte), Integer))
+        Me.Guna2Panel1.Controls.Add(Me.Guna2Button2)
         Me.Guna2Panel1.Controls.Add(Me.txtpassword)
         Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel4)
         Me.Guna2Panel1.Controls.Add(Me.txtsub)
@@ -111,16 +115,16 @@ Partial Class GetLoan
         Me.Guna2Panel1.Controls.Add(Me.attach1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel2)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges17
+        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges19
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 45)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Me.Guna2Panel1.Size = New System.Drawing.Size(592, 613)
+        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Me.Guna2Panel1.Size = New System.Drawing.Size(592, 653)
         Me.Guna2Panel1.TabIndex = 2
         '
         'txtpassword
         '
-        Me.txtpassword.CustomizableEdges = CustomizableEdges5
+        Me.txtpassword.CustomizableEdges = CustomizableEdges7
         Me.txtpassword.DefaultText = ""
         Me.txtpassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.txtpassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -134,13 +138,13 @@ Partial Class GetLoan
         Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(9679)
         Me.txtpassword.PlaceholderText = ""
         Me.txtpassword.SelectedText = ""
-        Me.txtpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Me.txtpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Me.txtpassword.Size = New System.Drawing.Size(431, 29)
         Me.txtpassword.TabIndex = 15
         '
         'Guna2HtmlLabel4
         '
-        Me.Guna2HtmlLabel4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(32, 110)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
@@ -150,7 +154,7 @@ Partial Class GetLoan
         '
         'txtsub
         '
-        Me.txtsub.CustomizableEdges = CustomizableEdges7
+        Me.txtsub.CustomizableEdges = CustomizableEdges9
         Me.txtsub.DefaultText = ""
         Me.txtsub.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.txtsub.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -164,13 +168,13 @@ Partial Class GetLoan
         Me.txtsub.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtsub.PlaceholderText = ""
         Me.txtsub.SelectedText = ""
-        Me.txtsub.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Me.txtsub.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Me.txtsub.Size = New System.Drawing.Size(431, 29)
         Me.txtsub.TabIndex = 6
         '
         'txtfrom
         '
-        Me.txtfrom.CustomizableEdges = CustomizableEdges9
+        Me.txtfrom.CustomizableEdges = CustomizableEdges11
         Me.txtfrom.DefaultText = ""
         Me.txtfrom.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.txtfrom.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -184,17 +188,17 @@ Partial Class GetLoan
         Me.txtfrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtfrom.PlaceholderText = ""
         Me.txtfrom.SelectedText = ""
-        Me.txtfrom.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Me.txtfrom.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Me.txtfrom.Size = New System.Drawing.Size(431, 29)
         Me.txtfrom.TabIndex = 5
         '
         'Guna2Button4
         '
         Me.Guna2Button4.AutoRoundedCorners = True
-        Me.Guna2Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Button4.BorderColor = System.Drawing.Color.Transparent
         Me.Guna2Button4.BorderRadius = 18
-        Me.Guna2Button4.CustomizableEdges = CustomizableEdges11
+        Me.Guna2Button4.CustomizableEdges = CustomizableEdges13
         Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -205,14 +209,14 @@ Partial Class GetLoan
         Me.Guna2Button4.Location = New System.Drawing.Point(427, 541)
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.PressedColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Me.Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Me.Guna2Button4.Size = New System.Drawing.Size(111, 39)
         Me.Guna2Button4.TabIndex = 12
         Me.Guna2Button4.Text = "Send"
         '
         'txtbody
         '
-        Me.txtbody.CustomizableEdges = CustomizableEdges13
+        Me.txtbody.CustomizableEdges = CustomizableEdges15
         Me.txtbody.DefaultText = ""
         Me.txtbody.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.txtbody.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -227,13 +231,13 @@ Partial Class GetLoan
         Me.txtbody.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtbody.PlaceholderText = ""
         Me.txtbody.SelectedText = ""
-        Me.txtbody.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Me.txtbody.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Me.txtbody.Size = New System.Drawing.Size(431, 223)
         Me.txtbody.TabIndex = 11
         '
         'Guna2HtmlLabel3
         '
-        Me.Guna2HtmlLabel3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(32, 295)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
@@ -243,7 +247,7 @@ Partial Class GetLoan
         '
         'Guna2HtmlLabel1
         '
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(32, 50)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
@@ -253,7 +257,7 @@ Partial Class GetLoan
         '
         'attach1
         '
-        Me.attach1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.attach1.BackColor = System.Drawing.Color.Transparent
         Me.attach1.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.attach1.Location = New System.Drawing.Point(176, 238)
         Me.attach1.Name = "attach1"
@@ -263,7 +267,7 @@ Partial Class GetLoan
         '
         'Guna2HtmlLabel2
         '
-        Me.Guna2HtmlLabel2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(32, 168)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
@@ -274,9 +278,9 @@ Partial Class GetLoan
         'Guna2Button1
         '
         Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Button1.BorderRadius = 18
-        Me.Guna2Button1.CustomizableEdges = CustomizableEdges15
+        Me.Guna2Button1.CustomizableEdges = CustomizableEdges17
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -286,7 +290,7 @@ Partial Class GetLoan
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Location = New System.Drawing.Point(32, 225)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Me.Guna2Button1.Size = New System.Drawing.Size(111, 39)
         Me.Guna2Button1.TabIndex = 7
         Me.Guna2Button1.Text = "Attached File"
@@ -295,12 +299,31 @@ Partial Class GetLoan
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'Guna2Button2
+        '
+        Me.Guna2Button2.AutoRoundedCorners = True
+        Me.Guna2Button2.BorderRadius = 21
+        Me.Guna2Button2.CustomizableEdges = CustomizableEdges5
+        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button2.ForeColor = System.Drawing.Color.Black
+        Me.Guna2Button2.Location = New System.Drawing.Point(427, 596)
+        Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Me.Guna2Button2.Size = New System.Drawing.Size(154, 45)
+        Me.Guna2Button2.TabIndex = 16
+        Me.Guna2Button2.Text = "Next"
+        '
         'GetLoan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(593, 658)
+        Me.ClientSize = New System.Drawing.Size(593, 698)
         Me.Controls.Add(Me.Guna2ControlBox2)
         Me.Controls.Add(Me.Guna2ControlBox1)
         Me.Controls.Add(Me.Guna2Panel1)
@@ -331,4 +354,5 @@ Partial Class GetLoan
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents txtpassword As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
 End Class
