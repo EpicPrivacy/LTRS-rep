@@ -23,8 +23,8 @@ Partial Class GetLoan2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.SuspendLayout()
@@ -36,10 +36,10 @@ Partial Class GetLoan2
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(98, Byte), Integer))
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges1
+        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges3
         Me.Guna2Panel1.Location = New System.Drawing.Point(-5, 47)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Me.Guna2Panel1.Size = New System.Drawing.Size(988, 553)
         Me.Guna2Panel1.TabIndex = 0
         '
@@ -52,6 +52,7 @@ Partial Class GetLoan2
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "GetLoan2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "GetLoan2"
         Me.ResumeLayout(False)
 

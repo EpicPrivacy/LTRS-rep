@@ -23,20 +23,20 @@ Partial Class MainHome
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -64,12 +64,12 @@ Partial Class MainHome
         Me.Guna2PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.BackgroundImage = Global.LTRS.My.Resources.Resources.logo_no_background1
         Me.Guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
+        Me.Guna2PictureBox1.CustomizableEdges = CustomizableEdges17
         Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.ImageRotate = 0!
         Me.Guna2PictureBox1.Location = New System.Drawing.Point(65, 90)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Me.Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Me.Guna2PictureBox1.Size = New System.Drawing.Size(345, 237)
         Me.Guna2PictureBox1.TabIndex = 1
         Me.Guna2PictureBox1.TabStop = False
@@ -101,7 +101,7 @@ Partial Class MainHome
         Me.Username.AutoRoundedCorners = True
         Me.Username.BackColor = System.Drawing.SystemColors.Control
         Me.Username.BorderRadius = 17
-        Me.Username.CustomizableEdges = CustomizableEdges9
+        Me.Username.CustomizableEdges = CustomizableEdges23
         Me.Username.DefaultText = ""
         Me.Username.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.Username.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -115,7 +115,7 @@ Partial Class MainHome
         Me.Username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.Username.PlaceholderText = "Username"
         Me.Username.SelectedText = ""
-        Me.Username.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Me.Username.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Me.Username.Size = New System.Drawing.Size(286, 36)
         Me.Username.TabIndex = 14
         '
@@ -124,7 +124,7 @@ Partial Class MainHome
         Me.Guna2Button1.AutoRoundedCorners = True
         Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Button1.BorderRadius = 21
-        Me.Guna2Button1.CustomizableEdges = CustomizableEdges11
+        Me.Guna2Button1.CustomizableEdges = CustomizableEdges25
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -133,7 +133,7 @@ Partial Class MainHome
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Location = New System.Drawing.Point(639, 352)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Me.Guna2Button1.Size = New System.Drawing.Size(200, 45)
         Me.Guna2Button1.TabIndex = 16
         Me.Guna2Button1.Text = "Login"
@@ -142,7 +142,7 @@ Partial Class MainHome
         '
         Me.Password.AutoRoundedCorners = True
         Me.Password.BorderRadius = 17
-        Me.Password.CustomizableEdges = CustomizableEdges13
+        Me.Password.CustomizableEdges = CustomizableEdges27
         Me.Password.DefaultText = ""
         Me.Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
@@ -156,7 +156,7 @@ Partial Class MainHome
         Me.Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(9679)
         Me.Password.PlaceholderText = "Password"
         Me.Password.SelectedText = ""
-        Me.Password.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Me.Password.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Me.Password.Size = New System.Drawing.Size(286, 36)
         Me.Password.TabIndex = 15
         Me.Password.UseSystemPasswordChar = True
@@ -164,12 +164,12 @@ Partial Class MainHome
         'Guna2ControlBox1
         '
         Me.Guna2ControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges7
+        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges21
         Me.Guna2ControlBox1.FillColor = System.Drawing.Color.LightGray
         Me.Guna2ControlBox1.IconColor = System.Drawing.Color.Red
         Me.Guna2ControlBox1.Location = New System.Drawing.Point(935, 2)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Me.Guna2ControlBox1.Size = New System.Drawing.Size(30, 26)
         Me.Guna2ControlBox1.TabIndex = 19
         '
@@ -178,12 +178,12 @@ Partial Class MainHome
         Me.Guna2Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2PictureBox1)
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges5
+        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges19
         Me.Guna2Panel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(98, Byte), Integer))
-        Me.Guna2Panel1.Location = New System.Drawing.Point(-1, 2)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(-1, -5)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Me.Guna2Panel1.Size = New System.Drawing.Size(484, 530)
+        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Me.Guna2Panel1.Size = New System.Drawing.Size(484, 537)
         Me.Guna2Panel1.TabIndex = 20
         '
         'Guna2HtmlLabel1
@@ -202,12 +202,12 @@ Partial Class MainHome
         Me.Guna2ControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2ControlBox2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges1
+        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges15
         Me.Guna2ControlBox2.FillColor = System.Drawing.Color.LightGray
         Me.Guna2ControlBox2.IconColor = System.Drawing.Color.Black
         Me.Guna2ControlBox2.Location = New System.Drawing.Point(899, 2)
         Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Me.Guna2ControlBox2.Size = New System.Drawing.Size(30, 26)
         Me.Guna2ControlBox2.TabIndex = 21
         Me.Guna2ControlBox2.UseTransparentBackground = True
@@ -239,6 +239,7 @@ Partial Class MainHome
         Me.Controls.Add(Me.Password)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MainHome"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainHome"
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
